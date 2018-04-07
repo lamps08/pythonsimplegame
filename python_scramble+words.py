@@ -1,7 +1,4 @@
 
-# coding: utf-8
-
-# In[1]:
 
 with open("C:/Users/lamps08/Downloads/words.txt", 'r' ) as f:
     r = f.read()
@@ -16,13 +13,6 @@ with open("C:/Users/lamps08/Downloads/words.txt", 'r' ) as f:
         lst2.append(t)
 
 
-# In[2]:
-
-print (lst1)
-
-
-# In[3]:
-
 import random
 rnd_lst = []
 for key in lst1:
@@ -31,7 +21,7 @@ for key in lst1:
 t = (len(rnd_lst)-1)
 
 
-# In[10]:
+
 
 str2 = str()
 str3 = str()
@@ -63,29 +53,6 @@ while (str2 != "no" ):
             str2 = input("do you want to continue\n")   
         elif str2 != 'no' and str2 != 'yes':
             str2 = input("do you want to continue\n")            
-        #else :
-          #  str2 = input("do you want to continue\n")
-        
-
-
-
-    
-    
-    
-
-
-# In[5]:
-
-from random import randint
-print(randint(0, 11))
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
 
 
 
